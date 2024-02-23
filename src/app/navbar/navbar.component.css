@@ -1,0 +1,26 @@
+@import url(https://bootswatch.com/5/morph/bootstrap.min.css);
+
+nav ul {
+    padding: 14px 16px;
+    float: none;
+    list-style: none;
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    left: 50%;
+    transform: translate(-33%, -33%);
+    display: flex;
+    justify-content: center;
+}
+
+
+nav li {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+
+nav form {
+    justify-content: right;
+}

@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+    font-family: "Georgia", Times, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Georgia", Times, serif;
+}
+
+h3{
+    text-align: center;
+    font-family: "Georgia", Times, serif;
+    font-weight: bold;
+    font-size: medium;
+}
+
+header {
+    background-image : url('src/assets/home.jpg');
+    background-size: cover; 
+}
+
+h4 {
+    text-align: center;
+}

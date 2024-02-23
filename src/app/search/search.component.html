@@ -1,0 +1,21 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<div>
+    <br>
+    <h1>SEARCH VIDEO</h1>
+    <h4> ✧˚₊‧⋆‧₊˚✧ ‿︵‿୨୧‿︵‿ ✧ ₊˚ ‧⋆✧  </h4>
+    <br>
+    <br>
+    
+    <div class="searchbox">
+    <img class="logo" src="assets/logo.png">
+
+        <form (submit)="searchVideos()">
+        <input type="text" size="40" justify-content="center" placeholder="Search videos..." [(ngModel)]="searchQuery" (keyup.enter)="searchVideos()" name="searchQuery">
+        &nbsp;
+        <button type="submit" class="btn btn btn">
+        <i class="fas fa-search"></i> &nbsp;Search
+        </button>
+        </form>
+    </div>
+</div>
